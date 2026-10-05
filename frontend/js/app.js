@@ -68,3 +68,5 @@ issueForm.addEventListener("submit", (event) => {
   formMessage.textContent = "Issue added to the local browser session.";
   renderIssues();
 });
+
+renderIssues();
